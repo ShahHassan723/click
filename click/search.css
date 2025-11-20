@@ -1,0 +1,79 @@
+ .container{
+            position: relative;
+            height: 3rem;
+            width: 50%;
+            background-color: white;
+            border: 3px solid whitesmoke;
+                      display: flex;
+            justify-content:left;
+            align-items: center;
+            border-radius: 50px;
+                margin-top: 250px;
+                padding-left:40px ;
+                margin-left:250px ;
+        box-shadow: 10px 5px 5px whitesmoke;
+        flex-wrap: wrap;
+  gap: 10px;
+        
+        }
+        .item{
+            border: 1px solid white;
+            font-size: 15px;
+                width: 600px; 
+                      text-shadow: 15px 10px 15px gray;
+                           flex-wrap: wrap;
+                          color: 		hsl(0, 70%, 13%);
+                          padding-left: 20px;
+                          flex-wrap: wrap;
+                                           display: flex;
+            justify-content:left;
+            align-items: center;
+        }
+        .item:hover{
+            transition: all;
+         rotate: 360deg;
+         transition: all 2s ease-in-out;
+         flex-wrap: wrap;
+                          display: flex;
+            justify-content:left;
+            align-items: center;
+        }
+          .item:focus{
+          outline: none;
+    flex-wrap: wrap;
+                     display: flex;
+            justify-content:left;
+            align-items: center;
+        }
+        .search{
+           position: absolute;
+           left: 0px; 
+padding-left: 10px;
+color: gray;
+flex-wrap: wrap;
+        }
+        .voice{
+       position: absolute;
+           right: 0px; 
+padding-right: 60px;
+color: gray;
+flex-wrap: wrap;
+        }
+        .camera{
+                 position: absolute;
+           right: 0px; 
+padding-right: 20px;
+color: gray;
+flex-wrap: wrap;
+        }
+@media (mix-width: 375px){
+  .container{
+    width: 95%;
+    padding-left: 20px;
+    margin-top: 100px; }
+  }
+  @media (min-width: 1024px){
+  .container{
+    width: 50%;
+  }
+}
